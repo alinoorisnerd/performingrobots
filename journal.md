@@ -51,3 +51,17 @@ Today's class was short and concise. The arms and forearms of the robot were on 
 Man in action video : 
 https://drive.google.com/file/d/1alnSVP_sdz5VeUlvgOLo4V8OtDTKxqrC/view?usp=sharing
 
+## 09/08/2025 - Attaching the servos:
+
+The evening was spent attaching the servos to the robot. Professor Shiloh request at least one, but I ended up attaching 3 servos. One for the face, and the other ones for the shoulder and the fore-arm.
+I started with the face first. Since the glue wasn't working well with the wooden plank and the servo's plastic surface, I made use of copper wiring to create a support mesh which anchored both the face, and the motor in place!
+<img width="451" height="386" alt="Screenshot 2025-10-16 at 10 43 39 PM" src="https://github.com/user-attachments/assets/f74b59c9-cf8f-4ff4-a1af-03a9ca4f2ca6" />
+<img width="466" height="545" alt="Screenshot 2025-10-16 at 10 43 59 PM" src="https://github.com/user-attachments/assets/3cfdd8fb-21cf-4f2f-9b6d-23589f8e84f5" />
+<img width="465" height="608" alt="Screenshot 2025-10-16 at 10 44 12 PM" src="https://github.com/user-attachments/assets/802e02ca-8ea0-4da1-98be-a99112f3d46a" />
+
+After the face was put in place alongside it's mini-servo and much wrestling, the next step was to assemble pan-tilt assembly for the 2  degree of freedom movement.
+<img width="465" height="598" alt="Screenshot 2025-10-16 at 10 45 52 PM" src="https://github.com/user-attachments/assets/ab2144d1-a85c-4a9a-aff3-37ae853ebab6" />
+Assembling the pan-tilt wasn't hard. Using 4 size wooden drill bit, holes were made for M3 thredded bolt, which were tightened with nuts attached to their ends on the opposite side of the plank. 
+The issue I faced was that 10 mm M3s were interefering with the servos (scratching the plastic casing), and I left them partially screwed to the brackets. Overall today was quite a  productive day! 
+
+
