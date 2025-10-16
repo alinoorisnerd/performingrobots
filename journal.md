@@ -45,3 +45,8 @@ Towards the end, we had a semi-realistic character coming along !
 
 <img width="377" height="575" alt="Screenshot 2025-10-16 at 10 30 56 PM" src="https://github.com/user-attachments/assets/9e37e0ed-4664-4c88-9a45-dbb02f38a98b" />
 
+## 09/07/2025 - Completing the arms and fore-arms of the robot:
+Today's class was short and concise. The arms and forearms of the robot were on today's agenda. The robot was planned to have movement along y-axis only, however; I decided to incorporate a y-axis 2 dimensional movement as well. For this, most of the time was spent cutting the planks for the arms.
+
+Man in action video : https://drive.google.com/file/d/1Xoj9LHGDWaJEQlPQB9F6JcHCrOA0njOS/view?usp=sharing
+
