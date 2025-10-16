@@ -10,7 +10,7 @@ Today was a quite long day. After trying to get around the problem of one of the
 ### Demonstration:
 https://drive.google.com/file/d/1Nec91-aRDii5MrB84LQ8Sl00QKBiiJDG/view?usp=sharing
 
-The Next step was to build a 1.5 Metre long body with physical characterics to the robot. The wooden plank from Alpine wood was used to build the backbone of the frame, and a lot of sawing, cutting, and drilling was done to manufacture the robot as we advised.
+The Next step was to build a 1.5 Metre long body with physical characterics to the robot. The wooden plank from Alpine wood was used to build the backbone of the frame, and a lot of sawing, cutting, and drilling was done to manufacture the robot as we advised. Nails were driven into the long plank to attach it to wooden base, and l-brackets were made use of to provide arching support to the plank. 
 
 <img width="421" height="533" alt="image" src="https://github.com/user-attachments/assets/228253f6-c0b7-4410-b4f2-a7ca0bc9affd" />
 <img width="493" height="588" alt="image" src="https://github.com/user-attachments/assets/39c20bf6-2006-4eef-9b6b-a5b73b6685ce" />
@@ -19,6 +19,7 @@ The final project ended up looking like this:
 
 <img width="400" height="740" alt="image" src="https://github.com/user-attachments/assets/81f2da38-f108-474d-8ecb-a1c1e6ce9a82" />
 
+Overall the robot works as of now in terms of its control;however, the code still requires some adjustment to properly map the input from the controller onto the wheels attached below the base.
 
 
 
