@@ -22,4 +22,26 @@ The final project ended up looking like this:
 Overall the robot works as of now in terms of its control;however, the code still requires some adjustment to properly map the input from the controller onto the wheels attached below the base.
 
 
+## 09/03/2025 - Completing the upper body, alongside face and shoulders:
+
+Today the upper body was the primary target. To acheive this, we needed the shoulder. Hence, a small light weight plank was cut and then was joint to the already existing spine of the character, with nails driven though them. 
+
+<img width="467" height="620" alt="Screenshot 2025-10-16 at 10 26 35 PM" src="https://github.com/user-attachments/assets/0ae81d77-eb7e-446d-ab4c-9164db47ab8b" />
+ To make sure the character isn't tilting, the level was checked and was made sure that no tilt occured.
+
+ After this, the face of the character (Walter White ) was cut-out to be place on the robot. I printed the face and then used cardboard as foundation. Using sharp blade, the cutout of the husband was obtained.
+ 
+<img width="465" height="617" alt="Screenshot 2025-10-16 at 10 28 56 PM" src="https://github.com/user-attachments/assets/076f1467-328f-4613-bc89-96ed7e1c9d78" />
+
+ <img width="399" height="505" alt="Screenshot 2025-10-16 at 10 29 16 PM" src="https://github.com/user-attachments/assets/b20d597f-22fa-4532-931e-365a14b10416" />
+
+ After this, the shredded body was the next on the agenda. Same procedure as the face was replicated and a defined front and back was made.
+ 
+
+ <img width="412" height="602" alt="Screenshot 2025-10-16 at 10 30 12 PM" src="https://github.com/user-attachments/assets/255a532a-d6a8-4082-8132-7a6ffedc5f1c" />
+<img width="437" height="549" alt="Screenshot 2025-10-16 at 10 30 28 PM" src="https://github.com/user-attachments/assets/5ff1f230-ccb1-4ec2-8381-6382bc642340" />
+
+Towards the end, we had a semi-realistic character coming along !
+
+<img width="377" height="575" alt="Screenshot 2025-10-16 at 10 30 56 PM" src="https://github.com/user-attachments/assets/9e37e0ed-4664-4c88-9a45-dbb02f38a98b" />
 
