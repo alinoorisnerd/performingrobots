@@ -1,4 +1,4 @@
-<img width="646" height="607" alt="Sketch" src="https://github.com/user-attachments/assets/9df60af2-9df6-43ed-b96d-b016781961cd" /># performingrobots
+#Performing Robots Journal - by Ali Noor
 
 ## 10/02/2025 - Fixing the Robot base and body frame:
 
