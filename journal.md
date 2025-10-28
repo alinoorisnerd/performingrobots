@@ -131,6 +131,25 @@ P.S professor I found your favourite pointing stick sitting right next to the ar
 
 
 
+## 10/22/2025 - Midterm evaluation and bringing it together :
+
+Tomorrow happens to be sort of a mini presentation day, where the progress will be evaluated based on goals the team set out for themselves. For me, it was the leg, the code, the eyes, face, wiring, attaching 7 servos, the back, the bald head, and last but not least : tidying up the robot!
+
+I started off with i2c pin confirguration, and paired all seven servo motors - one for face and  three per each sides to control the shoulder, arm, and forearm.
+
+![image](https://github.com/user-attachments/assets/7210fa3e-33cb-4dcc-aeb1-ac802622e96c)
+
+D17 and D20 for shoulders, D18 and D21 for arms, and D16 and D19 are the pin configurations for left and right side, respectively.
+
+After the attachment of the servos, the wire connecting the Mega shield to the power source connected to the base was further extended. To avoid load drop, the Anker power bank was avoided. 
+To test this, code was run on the servo again, and this time the arms functioned as intended. 
+
+Next matter at hand were the legs. Without legs, the poor robot cannot wear his pants. So the cardboard legs - hollow cylinders - were screwed into the erect wooden plank. Following the advice given by Professor Shiloh, I placed a wooden sheet inside the hollow cylinder and screwed the screwed starting from the inner wooden sheet - through the cardboard - into the spine of our robot. This ensures maximum grip over the cardboard and avoid any wear - tear on it.
+
+![image](https://github.com/user-attachments/assets/5ebcde22-07ee-483d-9535-74b19c848378)
+
+Moving on, I made the bald head using the spherical styrofoam handed over by the professor. The salvaged styrofoam was used as shoulder padding to support the back. At this point, I was done with the upper body! Finally!
+
 
 
 
