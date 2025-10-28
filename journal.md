@@ -136,8 +136,10 @@ P.S professor I found your favourite pointing stick sitting right next to the ar
 Tomorrow happens to be sort of a mini presentation day, where the progress will be evaluated based on goals the team set out for themselves. For me, it was the leg, the code, the eyes, face, wiring, attaching 7 servos, the back, the bald head, and last but not least : tidying up the robot!
 
 I started off with i2c pin confirguration, and paired all seven servo motors - one for face and  three per each sides to control the shoulder, arm, and forearm.
-
 D17 and D20 for shoulders, D18 and D21 for arms, and D16 and D19 are the pin configurations for left and right side, respectively.
+
+<img width="1357" height="1276" alt="image" src="https://github.com/user-attachments/assets/b64fd56a-0b39-4bdf-b1df-004d00036b58" />
+
 
 After the attachment of the servos, the wire connecting the Mega shield to the power source connected to the base was further extended. To avoid load drop, the Anker power bank was avoided. 
 To test this, code was run on the servo again, and this time the arms functioned as intended. 
