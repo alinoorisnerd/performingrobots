@@ -165,4 +165,17 @@ One of the servo motor's stopped working. That happens to be the left forearm. I
 
 Debugged the code and wrote sum set-up code to mimic the waving motion. Complete code will be uploaded before 30th October's class to the same 'main' branch inside the ' Arduino code ' directory.
 
+# 10/28/2025 -  Reflection and planning:
+
+_Compared to the list above, what did you accomplish for last Thursday (October 23)?_
+
+From the list of chores, I managed to complete everything. It was an ambitious list, but I am delighted to push and make as much progress as possible towards finishing the robot. This will leave me with enough time to polish and smoothen out the construct and programming of the robot before the play.
+
+_What will you accomplish for this Thursday October 30?_
+For this Thursday's class, I will program in the iconic movements of the character which reflect both the character's personality from the show and the story line set out! Professor's suggestion on using a incremental loop to control the haphazardly sudden movement of the robot, will  be implemented / taken into consideration.
+Polished code will be submitted into ' Arduino code ' directory, as mentioned in the previous blog.
+Also neo-pixels will be swapped in place of the LED's **(mentioned below)**.
+
+_What features remain to be implemented?_
+Led needs to be implemented. Sadly the input from my teammate is little to none. Only one task was delegated to him, and he didn't complete it. Therefore, I myself will swap out LED's with new-pixel for the eyes, so that I can vary the color of the light gleaming out of robot's eyes to match / complement the emotion!
  
