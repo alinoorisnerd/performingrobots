@@ -137,8 +137,6 @@ Tomorrow happens to be sort of a mini presentation day, where the progress will 
 
 I started off with i2c pin confirguration, and paired all seven servo motors - one for face and  three per each sides to control the shoulder, arm, and forearm.
 
-![image](https://github.com/user-attachments/assets/7210fa3e-33cb-4dcc-aeb1-ac802622e96c)
-
 D17 and D20 for shoulders, D18 and D21 for arms, and D16 and D19 are the pin configurations for left and right side, respectively.
 
 After the attachment of the servos, the wire connecting the Mega shield to the power source connected to the base was further extended. To avoid load drop, the Anker power bank was avoided. 
@@ -149,6 +147,14 @@ Next matter at hand were the legs. Without legs, the poor robot cannot wear his 
 ![image](https://github.com/user-attachments/assets/5ebcde22-07ee-483d-9535-74b19c848378)
 
 Moving on, I made the bald head using the spherical styrofoam handed over by the professor. The salvaged styrofoam was used as shoulder padding to support the back. At this point, I was done with the upper body! Finally!
+
+![image](https://github.com/user-attachments/assets/7210fa3e-33cb-4dcc-aeb1-ac802622e96c)
+
+![image](https://github.com/user-attachments/assets/34b5f44a-2905-4712-99d7-fb5abe09e4ab)
+
+![image](https://github.com/user-attachments/assets/032950b7-10b0-427e-b015-2020c8e94c48)
+
+Overall I am happy with the progress. The small missing things like wire-management was also looked into! The eyes were drilled into and leds were inserted inside to get approximation of the size of leds to be used. Next course of action is to finish the code -  which will perform certain movements corresponding to the character's role assigned in the script, as well as his iconic moves from the series 'Breaking Bad'.
 
 
 
