@@ -157,6 +157,10 @@ Moving on, I made the bald head using the spherical styrofoam handed over by the
 Overall I am happy with the progress. The small missing things like wire-management was also looked into! The eyes were drilled into and leds were inserted inside to get approximation of the size of leds to be used. Next course of action is to finish the code -  which will perform certain movements corresponding to the character's role assigned in the script, as well as his iconic moves from the series 'Breaking Bad'.
 
 
+## 10/23/2025 - Debugged Code and made robot wave at professor:
 
+One of the servo motor's stopped working. That happens to be the left forearm. I re-wrote the code and made the robot wave towards the professor. The left forearm wouldn't budge, so therefore I decided to take it off, and screw a new working one in its place, and it solved the issue. I belive people moving by bump or hit the arm, which broke the forearm servo, as it became loose and the forearm became free in terms of its movement.
+
+Debugged the code and wrote sum set-up code to mimic the waving motion. Complete code will be uploaded before 30th October's class to the same 'main' branch inside the ' Arduino code ' directory.
 
  
