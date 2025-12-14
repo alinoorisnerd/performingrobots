@@ -417,9 +417,26 @@ void dab(){
 These movements allowed for dynamic expression, thus utilizing the 2 degree flexibility it had thanks to 7 servos and two pan & tilt brackets mounted .
 
 
-## 11/06/2025 - Fixing the Robot base and body frame:
+## 11/06/2025 - Adding the music maker shield:
+The next step was to mount the music sheild 1053 VLSI by adafruit onto the Arduino Mega board. The Music shield is equipped with chipset by VLSI company, which converts digital signals to Analogue (Analogue to Digital Convertor -> ADC). These signals are then sent to amplifier which then plays them. Our shield has connection that we had to cut-off inorder for it to work. We were provided code by the professor to work the transmitter and receiver. The Reciever and transmitter worked just fine with the code that the professor provided. Help was also taken from Github journal of previous batch's student : Toomie.
 
-## 11/08/2025 - Fixing the Robot base and body frame:
+Our board was unable to play sound from the SD card. After a quick look by the professor, we were told to resolder the broken male header pins which hook directly into the Mega board's shield.
+
+
+![IMG_0782](https://github.com/user-attachments/assets/65d8925f-32e1-4e37-9f92-d1d16d2221c7)
+
+After re-soldering, the board was detected in Arduino IDE's serial monitor, and we were able to play the audio tracks on the mini Marshall Speaker handed to us by Professor Shiloh.
+
+
+
+## 11/08/2025 - Fixing the Ballance:
+
+One of the core issues with our robot was the higher center of gravity. The long wooden plank mounted onto the base with L-brackets holding it made the movements unstable. The robot tipped sideways and had higher inertia with lower agility.
+
+In order to safeguard from falls and impacts onto the floor, A wooden plank with two caster wheels was added to support along the forward left and right flank :
+
+![Uploading IMG_0817.JPG…]()
+
 
 ## 11/18/2025 - Fixing the Robot base and body frame:
 
