@@ -180,4 +180,254 @@ Also neo-pixels will be swapped in place of the LED's **(mentioned below)**.
 _What features remain to be implemented?_
 
 Led needs to be implemented. Sadly the input from my teammate is little to none. Only one task was delegated to him, and he didn't complete it. Therefore, I myself will swap out LED's with new-pixel for the eyes, so that I can vary the color of the light gleaming out of robot's eyes to match / complement the emotion!
+
+## 11/04/2025 - Programming Upper Body and movement:
+
+![IMG_0734](https://github.com/user-attachments/assets/a888dd14-ead0-4533-a540-9ee93ea5d542)
+
+Today I coded for the servos attachd to the upper body. I created modular code such as flapping, moving fore-arm up and down. These modular movements can be combined in different ways to create different movements , thus different meaning.
+The picture attached above showcases the 'dab' action movement.
+
+The code for these momvement is the following  :
+
+```[C++]
+// written by Ali Noor
+#include <Servo.h>
+
+Servo r_shoulder;
+Servo r_arm;
+Servo r_4arm;
+
+Servo l_shoulder;
+Servo l_arm;
+Servo l_4arm;
+
+Servo jaw;
+
+void setup() {
+ initial ();
+ delay(1000);
+forearm_talk();
+delay(1000);
+ initial ();
+shoulder_groove();
+delay(1000);
+ initial ();
+arm_flip();
+delay(3000);
+ initial ();
+shoulder_flap();
+shoulder_flap();
+shoulder_flap();
+shoulder_flap();
+shoulder_flap();
+delay(3000);
+ initial ();
+r_arm_r4arm ();
+delay(3000);
+ initial ();
+dab();
+delay(2000);
+initial ();
+
+}
+
+void loop() { 
+}
+
+
+void initial (){ // setting up the robot in place 
+
+  r_shoulder.write(60);
+  r_shoulder.attach(20); 
+
+
+  r_arm.write(180);
+  r_arm.attach(21); 
+
+
+  r_4arm.write(20);
+  r_4arm.attach(19);
+  
+
+  l_shoulder.write(60);
+  l_shoulder.attach(17); 
+
+
+  l_arm.write(0);
+  l_arm.attach(18); 
+
+
+  l_4arm.write(0);
+  l_4arm.attach(16);
+}
+
+void forearm_talk(){
+r_4arm.write(0);
+r_4arm.attach(19);
+
+l_4arm.write(0);
+l_4arm.attach(16);
+
+delay(500);
+
+r_4arm.write(20);
+r_4arm.attach(19);
+
+l_4arm.write(20);
+l_4arm.attach(16);
+
+delay(500);
+
+r_4arm.write(0);
+r_4arm.attach(19);
+
+l_4arm.write(0);
+l_4arm.attach(16);
+
+delay(500);
+
+r_4arm.write(20);
+r_4arm.attach(19);
+
+l_4arm.write(20);
+l_4arm.attach(16);
+
+
+}
+
+void shoulder_groove(){
+r_shoulder.write(50);
+r_shoulder.attach(20); 
+
+l_shoulder.write(50);
+l_shoulder.attach(17);
+
+delay (1000);
+r_shoulder.write(60);
+r_shoulder.attach(20); 
+
+l_shoulder.write(60);
+l_shoulder.attach(17);
+
+delay (1000);
+
+r_shoulder.write(50);
+r_shoulder.attach(20); 
+
+l_shoulder.write(50);
+l_shoulder.attach(17);
+
+delay (1000);
+
+r_shoulder.write(60);
+r_shoulder.attach(20); 
+
+l_shoulder.write(60);
+l_shoulder.attach(17);
+
+delay (1000);
+
+}
+
+void arm_flip(){
+
+r_arm.write(0);
+r_arm.attach(21);
+
+l_arm.write(180);
+l_arm.attach(18); 
+
+}
+
+void  shoulder_flap () {
+r_shoulder.write(60);
+r_shoulder.attach(20); 
+
+l_shoulder.write(60);
+l_shoulder.attach(17);
+
+delay (1000);
+r_shoulder.write(80);
+r_shoulder.attach(20); 
+
+l_shoulder.write(40);
+l_shoulder.attach(17);
+
+delay (1000);
+
+r_shoulder.write(60);
+r_shoulder.attach(20); 
+
+l_shoulder.write(60);
+l_shoulder.attach(17);
+
+delay (1000);
+}
+
+void r_arm_r4arm (){
+  r_arm.write(0);
+  r_arm.attach(21);
+    delay(2000);
+  r_4arm.write(0);
+ r_4arm.attach(19);
+ delay(1000);
+ r_4arm.write(20);
+ r_4arm.attach(19);
+ delay(1000);
+   r_4arm.write(0);
+ r_4arm.attach(19);
+ delay(1000);
+ r_4arm.write(20);
+ r_4arm.attach(19);
+ delay(1000);
+   r_4arm.write(0);
+ r_4arm.attach(19);
+ delay(1000);
+ r_4arm.write(20);
+ r_4arm.attach(19);
+ delay(1000);
+
+}
+
+void dab(){
+
+  l_arm.write(180);
+  l_arm.attach(18);
+  delay(2000);
+
+  l_shoulder.write(10);
+  l_shoulder.attach(17);
+  r_shoulder.write(180);
+  r_shoulder.attach(20); 
+  r_4arm.write(0);
+  r_4arm.attach(19);
+  delay(5000);
+  l_shoulder.write(60);
+  l_shoulder.attach(17);
+  r_shoulder.write(60);
+  r_shoulder.attach(20); 
+  r_4arm.write(90);
+ r_4arm.attach(19);
+
+  
+  
+}
+```
+These movements allowed for dynamic expression, thus utilizing the 2 degree flexibility it had thanks to 7 servos and two pan & tilt brackets mounted .
+
+
+## 11/06/2025 - Fixing the Robot base and body frame:
+
+## 11/08/2025 - Fixing the Robot base and body frame:
+
+## 11/18/2025 - Fixing the Robot base and body frame:
+
+## 11/20/2025 - Fixing the Robot base and body frame:
+
+## 12/02/2025 - Fixing the Robot base and body frame:
+
+## 12/06/2025 - Fixing the Robot base and body frame:
+
+## 12/09/2025 - Fixing the Robot base and body frame:
  
