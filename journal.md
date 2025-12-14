@@ -435,14 +435,40 @@ One of the core issues with our robot was the higher center of gravity. The long
 
 In order to safeguard from falls and impacts onto the floor, A wooden plank with two caster wheels was added to support along the forward left and right flank :
 
-![Uploading IMG_0817.JPG…]()
+
+![IMG_0817](https://github.com/user-attachments/assets/4766660a-333d-4ce7-a13b-7f5ab324b6c4)
+
+The caster wheels aided the design the however, I am still not satisfied with the movement.  Therfore I tuned the code for the base :
+
+~~~ [C++]
+
+~~~
+
+The robot is much more stable, controlled, and has greater maneuverability.
+One small issue that I still am facing is the skidding of the left wheels. Maybe the casterwheels added are taking away the contact pressure off of the left wheel. I will look into it later!
+
+
+## 11/18/2025 - Rehearsal and Popcorn:
+Today we rehearse, nothing much special. The rehearsal gave us a clue as to how we were supposed to positioned onto the stage. The unstable movement of the robot became more visible when put into the field.
+After the rehearsal, the bot decided to stop by for some popcorn.
+
+![IMG_1014](https://github.com/user-attachments/assets/9f082c69-6a29-4f9b-be4a-210707a05afa)
 
 
 
 
-## 11/18/2025 - Fixing the Robot base and body frame:
+## 11/20/2025 - Issues and more issues :
 
-## 11/20/2025 - Fixing the Robot base and body frame:
+The robot base stopped moving. The timing couldn't have been better! Our robot was left to be stationary during the rehearsal and this issue came out of the blue. When inspected, the H-bridge (L298N) was over-heating.
+When terminals were tested with LED, the LED wouldn't glow up. The issue turned out to tbe with the H-bridge. 
+
+![IMG_1416 2](https://github.com/user-attachments/assets/636bab6a-b947-46cb-8194-5fd45348c671)
+
+When the H-Bridge was swapped, it still wouldn't move. This sent me down the frenzy road wondering what could have been the issue. It was later realized that someone stepped onto the robot base. The arduino board was literally squashed the USB port came off and the left wheel was completely bent.
+Maybe someone passing by decided to take a piggy back ride on the robot, or maybe it was a sabotage attempt by his soon to be divorced Ex-wife robot!!!!
+
+
+
 
 ## 12/02/2025 - Fixing the Robot base and body frame:
 
