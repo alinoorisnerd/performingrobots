@@ -447,8 +447,11 @@ The caster wheels aided the design the however, I am still not satisfied with th
 The robot is much more stable, controlled, and has greater maneuverability.
 One small issue that I still am facing is the skidding of the left wheels. Maybe the casterwheels added are taking away the contact pressure off of the left wheel. I will look into it later!
 
+## 11/18/2025 - Shopping:
 
-## 11/18/2025 - Rehearsal and Popcorn:
+
+
+## 11/20/2025 - Rehearsal and Popcorn:
 Today we rehearse, nothing much special. The rehearsal gave us a clue as to how we were supposed to positioned onto the stage. The unstable movement of the robot became more visible when put into the field.
 After the rehearsal, the bot decided to stop by for some popcorn.
 
@@ -457,7 +460,7 @@ After the rehearsal, the bot decided to stop by for some popcorn.
 
 
 
-## 11/20/2025 - Issues and more issues :
+## 12/2/2025 - Issues and more issues :
 
 The robot base stopped moving. The timing couldn't have been better! Our robot was left to be stationary during the rehearsal and this issue came out of the blue. When inspected, the H-bridge (L298N) was over-heating.
 When terminals were tested with LED, the LED wouldn't glow up. The issue turned out to tbe with the H-bridge. 
