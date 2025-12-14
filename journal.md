@@ -438,6 +438,8 @@ In order to safeguard from falls and impacts onto the floor, A wooden plank with
 ![Uploading IMG_0817.JPG…]()
 
 
+
+
 ## 11/18/2025 - Fixing the Robot base and body frame:
 
 ## 11/20/2025 - Fixing the Robot base and body frame:
