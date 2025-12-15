@@ -449,6 +449,24 @@ One small issue that I still am facing is the skidding of the left wheels. Maybe
 
 ## 11/18/2025 - Shopping:
 
+![IMG_0978](https://github.com/user-attachments/assets/9d823f79-e227-4e26-b1b0-9f0f0cf745b6)
+
+
+![IMG_0981](https://github.com/user-attachments/assets/efd3b3da-a2b5-414b-a17f-0b2c9fed1886)
+
+
+![IMG_0983](https://github.com/user-attachments/assets/4dadf5fa-fe3a-4d47-965e-4afe1fe6f449)
+
+
+Today we set out to shop for our robot. Barebones appearance on the stage wouldn't give a good impression - therefore, we decided to meet the character's requirement and personality as per what was set out in the story plot. After a lot of tomfoolery and grabbing some shots for instagram story, Our robot was given Utah valley fit!
+
+
+![IMG_0988](https://github.com/user-attachments/assets/46ca53e2-6bcd-4d12-8acc-8547790f20d0)
+
+
+
+
+
 
 
 ## 11/20/2025 - Rehearsal and Popcorn:
@@ -470,12 +488,35 @@ When terminals were tested with LED, the LED wouldn't glow up. The issue turned 
 When the H-Bridge was swapped, it still wouldn't move. This sent me down the frenzy road wondering what could have been the issue. It was later realized that someone stepped onto the robot base. The arduino board was literally squashed the USB port came off and the left wheel was completely bent.
 Maybe someone passing by decided to take a piggy back ride on the robot, or maybe it was a sabotage attempt by his soon to be divorced Ex-wife robot!!!!
 
+These last minute errands are extremely dangerous and frustrating. Lucky for us, professor Shiloh was there almost all of the time to help us out!
+
+Nonetheless, I replaced the H-bridge connection and resoldered the Shiled that went onto the Arduino R3 board incharge of recieving signals from the Hobbyist RC controller. I also found out the loose connections between the motor and Big 12 V battery mounted to the base. Therefore, I stripped the wires and re-soldered them. Professor Shiloh taught me how to use the shrinking tube and heat gun to cover the exposed solder joints to prevent short circuit. After doing so, the robot base was working; however it was too fast for the liking!
+Tired from not working, I was happy to have wheels spinning at last!
+
+
+## 12/06/2025 - Worst come Worst !!!:
+
+Looking back, maybe a short circuited H bridge wasn't that bad! Today our robot took a fall. Not one, twice, but three times!!! The high speed coupled with higher center of gravity created a moment arm whenever the robot stopped. It knocked out other performing robots - Judge and wife! It was hilarious and quite befitting to the scipt, however ; made me feel bad for others. I am glad I could lend a hand to judge in fixing her. Just a bit!
+
+![IMG_1466](https://github.com/user-attachments/assets/c6365fd3-25a2-4553-87eb-601dd08ae426)
+
+Regardless, our robot fractured multiple bones and broke the brackets and other components. Few days away from performance and we are back to square one! Now I have to pull a all-nighter to fix it ! Starting from now!
+
+![IMG_1477](https://github.com/user-attachments/assets/4482ce75-850c-44b9-a4cb-cbec13d72b47)
+
+
+## 12/07/2025  & 12/08/2025 - FIXIT FIXIT FIXIT !!!:
+
+I couldn't save their marriage, but I can certainly save the robot from rendering utterly useless. During these two days code for the base was re-adjusted. Chanel one on the base arduino stopped recieving the signal which was responsible for turning left and right. Using my sophisticated thinking, used chanel three to turn right - which was controlled by a small button sitting right next to forward / reverse trigger.
+
+Since we were short on time, this was a quick and essential fix. I lowered the speed from 255 to 180 for reverse and back. This made robot less sensitive to controller input and reduced the haphazard movement. I mapped the trigger input to power delivered to motor in such a way that a finger slip didn't send the robot flying off of the stage. I learnt from my mistake  from the fall during rehersal and made changes accordingly!
+ The robot now moves forward, reverse, right, and left! After completing the movements, the chest and face were repared.
+
+ The plastic surgery was successful and we were back on our feet!
+
+## 12/09/2025 - Performance and last minute errands:
 
 
 
-## 12/02/2025 - Fixing the Robot base and body frame:
 
-## 12/06/2025 - Fixing the Robot base and body frame:
-
-## 12/09/2025 - Fixing the Robot base and body frame:
  
