@@ -504,6 +504,7 @@ Regardless, our robot fractured multiple bones and broke the brackets and other 
 
 ![IMG_1477](https://github.com/user-attachments/assets/4482ce75-850c-44b9-a4cb-cbec13d72b47)
 
+Thanks to help from Professor Shiloh, a plank with two caster wheells was mounted at the front extending the base area and furthering the contact points. The larger base area gave it much more stability!
 
 ## 12/07/2025  & 12/08/2025 - FIXIT FIXIT FIXIT !!!:
 
@@ -515,6 +516,228 @@ Since we were short on time, this was a quick and essential fix. I lowered the s
  The plastic surgery was successful and we were back on our feet!
 
 ## 12/09/2025 - Performance and last minute errands:
+
+Remember the fall ? Well guess what! The servos in upper body were completely broken! None of the movement written earlier for the actions were working! That too on the same day as the performance and my two other exhibitions. This is where my performance under the stress was tested. I wrote new movements from scratch within 30 minute. And FYI , I dont use CHATGPT!!! I hate it! It slows me done! Where time is of the essence, using it was a bad call!
+
+Here is the new code and new movements:
+
+``` [C+++]
+// by Ali Noor
+
+#include <Servo.h>
+
+Servo r_shoulder;
+Servo r_arm;
+Servo r_4arm;
+
+Servo l_shoulder;
+Servo l_arm;
+Servo l_4arm;
+
+
+
+void setup() {
+ initial ();
+ delay(1000);
+ talking(2);
+ delay(1000);
+  initial ();
+ attention (2);
+ delay(1000);
+  initial ();
+delay(1000);
+  initial ();
+flapping (2);
+delay(1000);
+  initial ();
+speak(5);
+
+
+}
+
+void loop() { 
+}
+
+
+void initial (){ // setting up the robot in place 
+
+  r_shoulder.write(180);
+  r_shoulder.attach(20); 
+
+
+  r_arm.write(30);
+  r_arm.attach(21); 
+
+
+  r_4arm.write(80);
+  r_4arm.attach(19);
+  
+
+  l_shoulder.write(50);
+  l_shoulder.attach(17); 
+
+
+  l_arm.write(0);
+  l_arm.attach(18); 
+
+
+  l_4arm.write(90);
+  l_4arm.attach(16);
+}
+
+void talking (int time){ // setting up the robot in place 
+
+  r_shoulder.write(180);
+  r_shoulder.attach(20); 
+
+  r_arm.write(30);
+  r_arm.attach(21); 
+
+  r_4arm.write(80);
+  r_4arm.attach(19);
+  
+
+  l_shoulder.write(50);
+  l_shoulder.attach(17); 
+
+
+  l_arm.write(0);
+  l_arm.attach(18); 
+
+
+  l_4arm.write(90);
+  l_4arm.attach(16);
+
+  for (int i=0 ; i<=time ; i++ ) {
+  delay(500);
+  r_4arm.write(120);
+  r_4arm.attach(19);
+
+    delay(500);
+  r_4arm.write(80);
+  r_4arm.attach(19);
+  }
+
+  
+
+}
+
+void attention ( int time){ // setting up the robot in place 
+
+  r_shoulder.write(180);
+  r_shoulder.attach(20); 
+
+
+  r_arm.write(30);
+  r_arm.attach(21); 
+
+
+  r_4arm.write(0);
+  r_4arm.attach(19);
+  
+
+  l_shoulder.write(50);
+  l_shoulder.attach(17); 
+
+
+  l_arm.write(0);
+  l_arm.attach(18); 
+
+
+  l_4arm.write(90);
+  l_4arm.attach(16);
+
+ for (int i = 0 ; i <= time ; i++){
+  r_shoulder.write(80);
+  r_shoulder.attach(20); 
+  l_shoulder.write(100);
+  l_shoulder.attach(17); 
+ }
+
+
+}
+
+
+
+void flapping ( int time) {
+    r_shoulder.write(180);
+  r_shoulder.attach(20); 
+
+
+  r_arm.write(30);
+  r_arm.attach(21); 
+
+
+  r_4arm.write(0);
+  r_4arm.attach(19);
+  
+
+  l_shoulder.write(50);
+  l_shoulder.attach(17); 
+
+
+  l_arm.write(0);
+  l_arm.attach(18); 
+
+
+  l_4arm.write(90);
+  l_4arm.attach(16);
+
+  r_shoulder.write(180);
+  r_shoulder.attach(20); 
+  l_shoulder.write(20);
+  l_shoulder.attach(17); 
+  delay(500);
+  for (int i = 0 ; i<=time; i++){
+   l_shoulder.write(50);
+  l_shoulder.attach(17); 
+  delay(500);
+  l_shoulder.write(20);
+  l_shoulder.attach(17); 
+  delay(500);
+  }
+
+ 
+}
+
+void speak(int time) {
+
+  // Repeat 'time' times
+  for (int i = 0; i <= time; i++) {
+
+    l_4arm.attach(16);   // Attach once before writing
+    l_4arm.write(130);
+    delay(500);
+
+    l_4arm.write(90);
+    delay(500);
+  }
+
+}
+```
+Proffessor Shiloh drilled, added another caster wheel to a plank, and using clamps clamped the support to the back of our robot!
+Everything was put together at the last minute! Now, there was no going back!
+The  time  to show up:
+
+![IMG_0674](https://github.com/user-attachments/assets/ea513e6b-f671-48b4-928a-0e699d24a063)
+
+ 
+
+<img width="1205" height="804" alt="Screenshot 2025-12-15 at 4 27 03 AM" src="https://github.com/user-attachments/assets/2f89ac8e-fece-4305-bbe9-fed9a309809e" />
+
+
+Everything Worked and the robot was much stable. Audio, hand-movements, jaw movements, LED, Base movement, everything worked perfectly as per plan!
+The performance was quite successful and many memories were made!
+
+Thank you professor Shiloh for all the help and effort you put into this class :)
+
+![IMG_1521](https://github.com/user-attachments/assets/e2807098-42dd-4119-b3c9-fddbf3c4e5f0)
+
+![IMG_1539](https://github.com/user-attachments/assets/6cbc0dea-c5cb-4ca8-ac51-293c336722fb)
+
+
+
+
 
 
 
